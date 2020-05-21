@@ -1,0 +1,16 @@
+#colorized-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 50vh;
+  margin: 10px 0;
+
+  #colorized-circle {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: center;
+    border: dotted 3px #cac9c9;
+  }
+}

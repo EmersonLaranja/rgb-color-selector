@@ -6,8 +6,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100vw;
-  height: 80vh;
 }
 
 #colors-containers {
@@ -24,8 +26,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 35vh;
   max-width: 100%;
+  min-height: 26vh;
 }
 
 #red-container {
@@ -44,13 +46,28 @@
 }
 
 #red-container #red-input {
-  width: 100%;
+  width: 75%;
+  margin-top: 8px;
   height: 20px;
-  background-color: #f00;
+  background-color: #3d3a3a;
   -webkit-appearance: none;
   border-radius: 12px;
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7);
   background: -webkit-gradient(linear, left top, right top, );
   background: linear-gradient(90deg);
+}
+
+#red-container #red-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f00;
+  cursor: pointer;
+  border: 4px solid #333;
+  -webkit-box-shadow: -407px 0 0 400px #f00;
+          box-shadow: -407px 0 0 400px #f00;
 }
 
 #green-container {
@@ -69,7 +86,28 @@
 }
 
 #green-container #green-input {
-  width: 100%;
+  width: 75%;
+  margin-top: 8px;
+  height: 20px;
+  background-color: #3d3a3a;
+  -webkit-appearance: none;
+  border-radius: 12px;
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7);
+  background: -webkit-gradient(linear, left top, right top, );
+  background: linear-gradient(90deg);
+}
+
+#green-container #green-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #0f0;
+  cursor: pointer;
+  border: 4px solid #333;
+  -webkit-box-shadow: -407px 0 0 400px #0f0;
+          box-shadow: -407px 0 0 400px #0f0;
 }
 
 #blue-container {
@@ -88,7 +126,28 @@
 }
 
 #blue-container #blue-input {
-  width: 100%;
+  width: 75%;
+  margin-top: 8px;
+  height: 20px;
+  background-color: #3d3a3a;
+  -webkit-appearance: none;
+  border-radius: 12px;
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7);
+          box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.7);
+  background: -webkit-gradient(linear, left top, right top, );
+  background: linear-gradient(90deg);
+}
+
+#blue-container #blue-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #00f;
+  cursor: pointer;
+  border: 4px solid #333;
+  -webkit-box-shadow: -407px 0 0 400px #00f;
+          box-shadow: -407px 0 0 400px #00f;
 }
 
 #red-display,
@@ -96,7 +155,7 @@
 #blue-display {
   background-color: #e6e4e6;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
   max-width: 50%;
   -webkit-box-shadow: 1px 1px 5px 1px black;
           box-shadow: 1px 1px 5px 1px black;
@@ -106,6 +165,18 @@
   text-align: center;
   border: none;
   border-radius: 8px;
+}
+
+@media (max-width: 425px) {
+  #colors-containers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 #colorized-container {
@@ -119,7 +190,8 @@
       -ms-flex-align: center;
           align-items: center;
   max-width: 100%;
-  max-height: 45vh;
+  min-height: 50vh;
+  margin: 10px 0;
 }
 
 #colorized-container #colorized-circle {
@@ -141,13 +213,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 15vh;
+  min-height: 13vh;
 }
 
 header h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #cac9c9;
+  text-transform: uppercase;
   max-width: 100%;
 }
 
@@ -162,15 +235,13 @@ footer {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  max-height: 5vh;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  min-height: 8vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 footer a {
