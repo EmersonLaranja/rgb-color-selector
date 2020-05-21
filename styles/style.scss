@@ -1,0 +1,18 @@
+@import 'colorsContainers';
+@import 'header';
+@import 'footer';
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  font-size: 22px;
+  font-family: monospace;
+}

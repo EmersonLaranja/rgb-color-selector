@@ -1,0 +1,196 @@
+#rgb-selector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  height: 80vh;
+}
+
+#colors-containers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35vh;
+  max-width: 100%;
+}
+
+#red-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #f00;
+}
+
+#red-container #red-input {
+  width: 100%;
+  height: 20px;
+  background-color: #f00;
+  -webkit-appearance: none;
+  border-radius: 12px;
+  background: -webkit-gradient(linear, left top, right top, );
+  background: linear-gradient(90deg);
+}
+
+#green-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #0f0;
+}
+
+#green-container #green-input {
+  width: 100%;
+}
+
+#blue-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #00f;
+}
+
+#blue-container #blue-input {
+  width: 100%;
+}
+
+#red-display,
+#green-display,
+#blue-display {
+  background-color: #e6e4e6;
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 50%;
+  -webkit-box-shadow: 1px 1px 5px 1px black;
+          box-shadow: 1px 1px 5px 1px black;
+  color: #2d2d2d;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+#colorized-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 100%;
+  max-height: 45vh;
+}
+
+#colorized-container #colorized-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-position: center;
+  border: dotted 3px #cac9c9;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 15vh;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #cac9c9;
+  max-width: 100%;
+}
+
+@media (max-width: 415px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-height: 5vh;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #191919;
+  color: #fff;
+  font-size: 22px;
+  font-family: monospace;
+}
+/*# sourceMappingURL=style.css.map */
