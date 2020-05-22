@@ -10,6 +10,6 @@ You can see my project [here](https://emersonlaranja.github.io/rgb-color-selecto
 ## Image
 
 <p align="center">
-  <img src="src/assets/rgb-color-selector-mobile.png">
   <img src="src/assets/rgb-color-selector-web.png">
+  <img src="src/assets/rgb-color-selector-mobile.png">
 </p>
