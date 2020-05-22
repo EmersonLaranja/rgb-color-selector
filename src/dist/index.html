@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>RGB Circle</h1>
+    </header>
+
+    <section id="rgb-selector">
+      <div id="colors-containers">
+        <div id="red-container">
+          <h3>Red</h3>
+          <input
+            type="range"
+            id="red-input"
+            value="0"
+            min="0"
+            max="255"
+            step="1"
+          />
+          <input type="text" id="red-display" disabled />
+        </div>
+
+        <div id="green-container">
+          <h3>Green</h3>
+          <input
+            type="range"
+            id="green-input"
+            value="0"
+            min="0"
+            max="255"
+            step="1"
+          />
+          <input type="text" id="green-display" disabled />
+        </div>
+
+        <div id="blue-container">
+          <h3>Blue</h3>
+          <input
+            type="range"
+            id="blue-input"
+            value="0"
+            min="0"
+            max="255"
+            step="1"
+          />
+          <input type="text" id="blue-display" disabled />
+        </div>
+      </div>
+      <div id="colorized-container">
+        <div id="colorized-circle"></div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        Made with
+        <a
+          href="https://www.linkedin.com/in/emerson-laranja-dos-santos-9b6064145/"
+          target="_blank"
+          >🧡</a
+        >
+        by Laranja
+      </p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

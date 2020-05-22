@@ -1,0 +1,25 @@
+{
+  "name": "rgb-color-selector",
+  "version": "1.0.0",
+  "description": "The first challenge of the bootcamp at IGTI was to build a rgb color selector using JS, CSS and HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "./node_modules/.bin/gh-pages -d dist/ -d dist/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmersonLaranja/rgb-color-selector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmersonLaranja/rgb-color-selector/issues"
+  },
+  "homepage": "https://github.com/EmersonLaranja/rgb-color-selector#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
