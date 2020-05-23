@@ -8,12 +8,23 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body {
   background-color: rgb(25, 25, 25);
   color: #fff;
   font-size: 22px;
-  font-family: monospace;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(225deg, #2e2e2e, rgb(25, 25, 25));
+  h3 {
+    font-weight: 300;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    overflow-y: auto;
+  }
 }
