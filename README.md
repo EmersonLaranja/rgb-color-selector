@@ -7,7 +7,6 @@ The first challenge of the bootcamp at IGTI was to build a rgb color selector us
 You can see my project __[here](https://emersonlaranja.github.io/rgb-color-selector/)__
 
 ## 📌 Statement
-Students must use the following activities:
 
 1. Implement, through HTML, CSS and pure JavaScript, an application that contains three “range” entries, values between 0 and 255 and represented, respectively, R (Red - Red), G (Green - Green) and B (Blue - blue).
 
